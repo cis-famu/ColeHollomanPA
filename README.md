@@ -1,7 +1,7 @@
 # PA01 – Part 1 (HTML Skeleton & GitHub Setup)
 
 **Student:** Cole Holloman  
-**Course:** CNT4504E  
+**Course:** COP 3060 
 **Assignment:** PA01 – Part 1
 
 ## Deliverables
