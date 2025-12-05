@@ -17,3 +17,17 @@ Instructor GitHub username: `vacoote89`.
 
 ## Notes
 - HTML validated and formatted.
+
+# PA03 — JavaScript Interactivity + Fetch
+
+## How to run
+1. Open index.html in a browser.
+2. Open DevTools → Console to verify welcome log.
+3. Test number input validation.
+4. Click "Load Data" to fetch products JSON.
+5. Click "Sort A–Z" to sort loaded items.
+
+## API Used
+DummyJSON Products API
+Endpoint: https://dummyjson.com/products?limit=20
+No authentication required.
