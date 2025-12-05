@@ -1,0 +1,37 @@
+/* Type selector */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Type selectors for headings */
+h1 {
+  color: #0055aa;
+}
+
+h2 {
+  color: #008844;
+}
+
+/* Class selector */
+.highlight {
+  color: #aa0000; /* Paragraph text color change */
+  font-weight: bold;
+}
+
+/* ID selector */
+#special {
+  background-color: #ffe680;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Box model example */
+section {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
