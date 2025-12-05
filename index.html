@@ -3,9 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cole Holloman — PA02 Enhanced HTML</title>
-
-  <!-- Link to external stylesheet -->
+  <title>Cole Holloman — PA03 Enhanced HTML + JS</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -20,16 +18,38 @@
         Hello! My name is Cole Holloman. I'm taking CNT4504E and this is the enhanced
         version of my HTML skeleton with CSS styling.
       </p>
-
       <p>
         This page now uses an external stylesheet, classes, IDs, and improved spacing
         to demonstrate basic CSS styling and readability.
       </p>
     </section>
+
+    <section id="status"></section>
+
+    <section>
+      <h2>JavaScript Demo</h2>
+      <label for="userInput">Enter a number (1–10):</label>
+      <input type="text" id="userInput" />
+      <button id="validateBtn">Validate</button>
+    </section>
+
+    <section>
+      <h2>Loop Output</h2>
+      <ul id="loopList"></ul>
+    </section>
+
+    <section>
+      <h2>API Fetch Demo</h2>
+      <button id="fetchBtn">Load Data</button>
+      <button id="sortBtn">Sort A–Z</button>
+      <div id="results"></div>
+    </section>
   </main>
 
   <footer>
-    <p>Assignment: PA02 – HTML + CSS Enhancement | Course: CNT4504E</p>
+    <p>Assignment: PA03 – HTML + CSS + JS | Course: CNT4504E</p>
   </footer>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
